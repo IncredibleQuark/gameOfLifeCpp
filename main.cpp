@@ -11,6 +11,8 @@
 #include <crtdbg.h>
 #endif
 
+using namespace std;
+
 constexpr int displayWidth = 640;
 constexpr int displayHeight = 480;
 constexpr int cellWidth = 10;
