@@ -3,7 +3,7 @@
 //
 
 #include "Grid.h"
-//#include "Pattern.h"
+#include "Pattern.h"
 #include <cstdlib>
 
 using namespace std;

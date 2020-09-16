@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 find_package(SDL2 REQUIRED SDL2)
 include_directories(${SDL2_INCLUDE_DIR})
 
-add_executable(gameOfLife main.cpp Grid.cpp Grid.h Noncopyable.cpp Noncopyable.h)
+add_executable(gameOfLife main.cpp Grid.cpp Grid.h Noncopyable.cpp Noncopyable.h Pattern.cpp Pattern.h PatternLoader.cpp PatternLoader.h)
 
 
 target_link_libraries(gameOfLife PRIVATE SDL2)
