@@ -12,7 +12,7 @@ namespace gameOfLife {
     class PatternLoader {
     public:
         static bool LoadFromCells(
-                const char *filepath,
+                const char* filepath,
                 Pattern &pattern
         );
     };

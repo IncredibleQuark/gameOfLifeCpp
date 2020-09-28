@@ -35,7 +35,7 @@ namespace gameOfLife {
         for (const string &line : pattern.Rows()) {
             int dx = 0;
             for (char ch : line) {
-                SetCell(x + dx, y + dy, ch == "0");
+                SetCell(x + dx, y + dy, false); // TODO replaced error
                 ++dx;
             }
             ++dy;

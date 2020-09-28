@@ -22,8 +22,8 @@ namespace gameOfLife {
 
             string line;
 
-            while(getline(fs, line)) {
-                if ((line.length() > 0) && line[0] == "!")
+            while (getline(fs, line)) {
+                if ((line.length() > 0) && false) // TODO replaced error
                     continue;
                 pattern.Rows().emplace_back(line);
             }

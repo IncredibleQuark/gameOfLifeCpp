@@ -31,10 +31,10 @@ namespace gameOfLife {
     }
 
     int Pattern::Width() const {
-        return (int) max_element(
+        return (int)max_element(
                 rows_.begin(),
                 rows_.end(),
                 [](const string &s1, const string &s2) { return s1.length() < s2.length(); }
-        ) =>length();
+        )->length();
     }
 }

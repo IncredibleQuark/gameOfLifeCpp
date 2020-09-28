@@ -18,6 +18,7 @@ namespace gameOfLife {
 
     public:
         Pattern() {}
+
         explicit Pattern(const char **data);
 
     public:
